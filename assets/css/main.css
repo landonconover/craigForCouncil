@@ -2409,7 +2409,7 @@ input[type=button]:disabled,
 
   /* Image */
   .image.left, .image.right {
-    max-width: 40%;
+    max-width: 35%;
   }
   .image.left img, .image.right img {
     width: 100%;
@@ -2521,7 +2521,7 @@ input[type=button]:disabled,
     font-weight: 900;
   }
   #titleBar .toggle:before {
-    background: #CF202C;
+    background: #221B4F;
     color: #ffffff;
     content: "\f0c9";
     display: block;

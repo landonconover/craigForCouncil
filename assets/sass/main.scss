@@ -1432,7 +1432,7 @@
 			.image {
 				&.left,
 				&.right {
-					max-width: 40%;
+					max-width: 35%;
 
 					img {
 						width: 100%;
@@ -1539,7 +1539,7 @@
 					}
 
 					&:before {
-						background: _palette(accent1, bg);
+						background: _palette(header, bg);
 						color: _palette(accent1, fg-bold);
 						content: '\f0c9';
 						display: block;
