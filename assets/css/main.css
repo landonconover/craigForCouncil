@@ -1774,7 +1774,7 @@ input[type=radio] + label:before {
 }
 .image.main {
   display: block;
-  height: 20em;
+  height: 19.5em;
   border-radius: 0;
 }
 .image.main img {
@@ -2572,9 +2572,9 @@ input[type=button]:disabled,
   }
 
   /* Image */
-  .image.left {
+  /* .image.left {
     margin: 0 1.5em 1em 0;
-  }
+  } */
   .image.right {
     margin: 0 0 1em 1.5em;
   }
