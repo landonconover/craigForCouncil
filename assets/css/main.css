@@ -1338,6 +1338,8 @@ pre code {
   .row.gtr-200.gtr-uniform > * {
     padding-top: 2.5em;
   }
+
+
 }
 
 /* Container */
@@ -1774,7 +1776,7 @@ input[type=radio] + label:before {
 }
 .image.main {
   display: block;
-  height: 19.5em;
+  height: 21.5em;
   border-radius: 0;
 }
 .image.main img {
@@ -2354,6 +2356,12 @@ input[type=button]:disabled,
     font-size: 13pt;
   }
 
+  .image.main {
+    display: block;
+    height: 19.5em;
+    border-radius: 0;
+  }
+
   /* Header */
   #header {
     width: 21em;
@@ -2391,6 +2399,10 @@ input[type=button]:disabled,
   #wrapper {
     padding-right: 20em;
   }
+
+  .image.main {
+    height: 19.5em;
+  }
 }
 /* Medium */
 #titleBar {
@@ -2415,7 +2427,7 @@ input[type=button]:disabled,
     width: 100%;
   }
   .image.main {
-    height: 20em;
+    height: 19.5em;
   }
 
   /* Header */
@@ -2581,6 +2593,13 @@ input[type=button]:disabled,
   .image.main {
     height: 12em;
   }
+
+  .image.left {
+    float: none;
+    margin: 0 2.5em 2em 0;
+    top: 0.25em;
+    max-width: 100%;
+}
 
   /* Section/Article */
   header br {
